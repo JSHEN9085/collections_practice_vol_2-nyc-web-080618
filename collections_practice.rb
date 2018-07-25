@@ -6,5 +6,6 @@ def contain_a(array)
   array.find_all {|word| word.include?("a")}
 end
 
-  
+def first_wa(array)  
   array.find {|prefix| prefix.include?("wa")}
+end 
