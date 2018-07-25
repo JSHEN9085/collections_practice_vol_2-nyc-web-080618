@@ -75,3 +75,11 @@ def organize_schools(schools)
       school_locations[attribute.values.join()] = [ ]
       end
   end    
+
+  schools.each do |element, attribute|
+
+    school_locations[attribute.values.join()].push(element)
+    
+    end 
+  school_locations
+end  
