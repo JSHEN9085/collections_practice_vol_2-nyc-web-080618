@@ -17,5 +17,17 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  count_array = [ ] 
   
-end
+  array.each do |item|
+   item.each do |key, value|
+    new_hash = {  }
+    new_hash[:name] = value
+    new_hash[:count] = array.count(item)
+      if count_array.include?(new_hash) != true
+        count_array.push(new_hash)
+      end
+    end
+  end  
+  count_array  
+end 
