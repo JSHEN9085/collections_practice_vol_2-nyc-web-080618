@@ -32,3 +32,21 @@ def count_elements(array)
   end  
   count_array  
 end 
+
+def merge_data(key_structure, value_structure)
+  merged_data = [ ]
+  
+  key_structure.each do |item|
+    value_structure.each do |element|
+      element.each do |name, attribute|
+        new_hash = { }
+      
+        if name == item.values.join()
+         new_hash = item.merge(attribute)
+         merged_data.push(new_hash)
+end
+end
+end  
+end
+merged_data
+end  
