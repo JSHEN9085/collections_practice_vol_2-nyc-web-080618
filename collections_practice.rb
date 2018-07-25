@@ -6,3 +6,5 @@ def contain_a(array)
   array.find_all {|word| word.include?("a")}
 end
 
+  
+  array.find {|prefix| prefix.include?("wa")}
