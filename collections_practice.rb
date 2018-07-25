@@ -7,7 +7,10 @@ def contain_a(array)
 end
 
 def first_wa(array)  
-  array.find {|prefix| prefix.include?("wa")}
+  array.find do |element|
+    element[0] == "w" && element[1] == "a"
+  end  
+end  
 end 
 
 def remove_non_strings(array)
