@@ -4,6 +4,7 @@ def begins_with_r(array)
   
   if array[i].start_with?("R")
     true 
+    i += 1 
   else 
     return false 
   end 
