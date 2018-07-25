@@ -11,7 +11,6 @@ def first_wa(array)
     element[0] == "w" && element[1] == "a"
   end  
 end  
-end 
 
 def remove_non_strings(array)
 	array.delete_if {|string| string.class != String}
