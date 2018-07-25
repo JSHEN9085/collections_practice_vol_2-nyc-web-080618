@@ -9,3 +9,7 @@ end
 def first_wa(array)  
   array.find {|prefix| prefix.include?("wa")}
 end 
+
+def remove_non_strings(array)
+	array.delete_if {|string| string.class != String}
+end
