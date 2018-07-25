@@ -50,3 +50,17 @@ end
 end
 merged_data
 end  
+
+def find_cool(structure)
+  
+  cool_array = [ ]
+  structure.each do |element|
+    
+    element.each do |key, value|
+      if value == "cool"
+        cool_array.push(element)
+     end
+   end
+  end
+  cool_array
+end  
