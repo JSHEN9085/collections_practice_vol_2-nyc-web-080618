@@ -3,6 +3,5 @@ def begins_with_r(array)
   while i < array.length 
   if array[i].start_with?("R")
     i += 1 
-    false 
   end 
 end 
