@@ -44,11 +44,11 @@ def merge_data(key_structure, value_structure)
         if name == item.values.join()
          new_hash = item.merge(attribute)
          merged_data.push(new_hash)
-end
-end
-end  
-end
-merged_data
+        end
+      end
+    end  
+  end
+  merged_data
 end  
 
 def find_cool(structure)
