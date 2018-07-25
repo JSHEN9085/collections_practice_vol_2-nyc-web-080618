@@ -1,7 +1,10 @@
 def begins_with_r(array)
-  if array.start_with?("R")
+  i = 0 
+  while i < array.length 
+  
+  if array[i].start_with?("R")
     true 
   else 
-    false 
+    return false 
   end 
 end 
